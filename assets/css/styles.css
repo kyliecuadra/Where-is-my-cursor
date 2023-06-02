@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Amatics-Regular;
+  src: url(../font/AmaticSC-Regular.ttf);
+}
+
+@font-face {
+  font-family: Amatics-Bold;
+  src: url(../font/Amatic-Bold.ttf);
+}
+
+* {
+  cursor: default;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+h1 {
+  font-family: Amatics-Bold;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+p {
+  font-family: Amatics-Regular;
+  font-size: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #EEEEEE;
+  color: #333333;
+  border: none;
+  border-radius: 4px;
+}
+
+#incrementButton {
+  background-color: #DDDDDD;
+}
+
+.cursor-clone {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../img/arrow-cursor.png');
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+}
+
+
+#startButton {
+  font-family: Amatics-Bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 50px;
+  cursor: pointer!important;
+}
+
+#incrementButton {
+  font-family: Amatics-Bold;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 24;
+  font-weight: 700;
+}
+
+#score {
+  font-family: Amatics-Bold;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 50px;
+  color: #000;
+}
+
+#timer {
+  font-family: Amatics-Bold;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  z-index: -1;
+}
+
+h2 {
+  height: 100%;
+  font-family: Amatics-Bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 700;
+  
+}

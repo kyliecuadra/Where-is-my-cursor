@@ -15,6 +15,7 @@
 body {
   background-color: #FFFFFF;
   color: #333333;
+  cursor: url('arrow-cursor.png'),auto;
 }
 
 h1 {
